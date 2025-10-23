@@ -1,0 +1,20 @@
+# 📱 Twitch Mobile Test with Cypress
+
+This repository contains an automated Cypress test that simulates a mobile user journey on [Twitch.tv](https://www.twitch.tv), including search, scroll, streamer selection, modal handling, and screenshot capture.
+
+## ✅ Test Flow
+
+1. Visit Twitch homepage
+2. Click the search icon
+3. Search for "StarCraft II"
+4. Scroll down twice
+5. Select a streamer
+6. Handle modal if present
+7. Wait for video to load and take a screenshot
+
+## 📦 Setup
+
+```bash
+npm install
+npx cypress open
+
